@@ -10,6 +10,6 @@ public class testowy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+	//Nowa wersja
 	}
 }
