@@ -26,6 +26,8 @@ public class Movement : MonoBehaviour {
         float inputX = Input.GetAxis("Horizontal");
         float inputY = Input.GetAxis("Vertical");
 
+//A ja sobie kurwa tutaj dodam		
+		
         movement = new Vector2(
           speed.x * inputX,
           speed.y * inputY);
