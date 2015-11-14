@@ -31,7 +31,7 @@ public class Movement : MonoBehaviour {
         movement = new Vector2(
           speed.x * inputX,
           speed.y * inputY);
-
+//a coś sobie tutaj dodam
 
 
         bool shoot = Input.GetButtonDown("Fire1");
