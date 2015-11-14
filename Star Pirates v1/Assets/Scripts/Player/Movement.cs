@@ -3,8 +3,9 @@ using System.Collections;
 
 public class Movement : MonoBehaviour {
 
-    public float moveSpeed = 2f;
+    public float movementSpeed = 2f;
     public Vector2 speed = new Vector2(10, 10);
+	private int test = 3; 
     Rigidbody2D rigid;
 
 
@@ -32,7 +33,7 @@ public class Movement : MonoBehaviour {
           speed.x * inputX,
           speed.y * inputY);
 //a coś sobie tutaj dodam
-
+test = 1;
 
         bool shoot = Input.GetButtonDown("Fire1");
         shoot |= Input.GetButtonDown("Fire2");
