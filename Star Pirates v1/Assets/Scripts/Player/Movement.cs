@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour {
     public float moveSpeed = 2f;
     public Vector2 speed = new Vector2(10, 10);
     Rigidbody2D rigid;
-
+	string tekst;
 
     void Start () {
 
@@ -45,5 +45,6 @@ public class Movement : MonoBehaviour {
         // 5 - Move the game object
         rigid.velocity = movement;
         //rigidbody2D.velocity = movement;
+		tekst = "ala";
     }
 }
